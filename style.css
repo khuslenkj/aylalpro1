@@ -52,9 +52,21 @@ header {
 }
 .head2 {
   display: flex;
-  gap: 24px;
 }
-.destinations {
+.he2 {
+  width: 124.28px;
+  height: 40px;
+  background-color: white;
+  font-size: 15px;
+  color: #40484b;
+  font-weight: 600;
+  align-self: flex-end;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.he2:hover {
   background: #2b697a;
   width: 124.28px;
   height: 40px;
@@ -65,13 +77,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Inter", sans-serif;
-}
-.he2 {
-  font-size: 15px;
-  color: #40484b;
-  font-weight: 600;
-  align-self: center;
   font-family: "Inter", sans-serif;
 }
 .head3 {
@@ -1171,6 +1176,7 @@ header {
   gap: 32px;
   align-items: center;
   position: relative;
+  height: 500px;
 }
 .s4dood1 {
   display: flex;
@@ -1181,6 +1187,32 @@ header {
   background-color: white;
   border-radius: 15px;
   gap: 16px;
+}
+.s4dood1:hover {
+  display: flex;
+  flex-direction: column;
+  width: 277.33px;
+  height: 445px;
+  padding: 48px;
+  background-color: white;
+  border-radius: 15px;
+  gap: 16px;
+  box-shadow: 0px 10px 20px 0px black;
+}
+.s4dood1:hover .s4dood14{
+  width: 277.33px;
+  height: 48px;
+  border-radius: 99px;
+  background-color: #2b697a;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
 }
 .s4dood11 {
   width: 140.56px;
@@ -1287,6 +1319,17 @@ header {
   display: flex;
   flex-direction: column;
   width: 277.33px;
+  height: 417px;
+  padding: 48px;
+  background-color: white;
+  border-radius: 15px;
+  gap: 16px;
+  position: relative;
+}
+.s4dood2:hover {
+  display: flex;
+  flex-direction: column;
+  width: 277.33px;
   height: 445px;
   padding: 48px;
   background-color: white;
@@ -1295,6 +1338,23 @@ header {
   box-shadow: 0px 10px 20px 0px black;
   position: relative;
 }
+
+.s4dood2:hover .s4dood24 {
+  width: 277.33px;
+  height: 48px;
+  border-radius: 99px;
+  background-color: #2b697a;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
 .s4dood21 {
   width: 140.56px;
   height: 24px;
@@ -1386,12 +1446,12 @@ header {
   width: 277.33px;
   height: 48px;
   border-radius: 99px;
-  background-color: #2b697a;
+  background-color: #e6eff5;
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 700;
   font-style: bold;
-  color: white;
+  color: #065161;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1429,9 +1489,32 @@ header {
   background-color: white;
   border-radius: 15px;
   gap: 16px;
-  position: absolute;
-  top: 15px;
-  right: 0px;
+}
+.s4dood3:hover {
+  display: flex;
+  flex-direction: column;
+  width: 277.33px;
+  height: 500px;
+  padding: 48px;
+  background-color: white;
+  border-radius: 15px;
+  gap: 16px;
+  box-shadow: 0px 10px 20px 0px black;
+}
+.s4dood3:hover .s4dood34{
+  width: 277.33px;
+  height: 48px;
+  border-radius: 99px;
+  background-color: #2b697a;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
 }
 .s4dood31 {
   width: 140.56px;
